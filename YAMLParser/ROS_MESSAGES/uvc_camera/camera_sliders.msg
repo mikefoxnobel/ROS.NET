@@ -1,4 +1,4 @@
-int32 brightness
+﻿int32 brightness
 int32 contrast
 int32 exposure
 int32 gain
