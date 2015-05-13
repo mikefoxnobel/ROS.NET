@@ -126,8 +126,8 @@ namespace FauxMessages
                     }
                     if (lines[i].Contains("namespace"))
                     {
-                        //requestfronthalf +=
-                        //  "\nusing Messages.std_msgs;\nusing Messages.geometry_msgs;\nusing Messages.nav_msgs;\nusing String=Messages.std_msgs.String;\n\n"; //\nusing Messages.roscsharp;
+                        requestfronthalf +=
+                          "\nusing Messages.std_msgs;\nusing Messages.geometry_msgs;\nusing Messages.nav_msgs;\nusing String=Messages.std_msgs.String;\n\n"; //\nusing Messages.roscsharp;
                         requestfronthalf += "namespace " + Namespace + "\n";
                         continue;
                     }
